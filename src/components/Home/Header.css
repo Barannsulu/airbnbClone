@@ -39,3 +39,36 @@
   justify-content: space-between;
   margin-right: 80px;
 }
+
+@media screen and (max-width: 550px) {
+  .header_right {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .header_right > p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header_center > input {
+    width: 10%;
+    padding-left: 80px;
+    margin-right: 5px;
+  }
+
+  .header_right {
+    padding-left: 5px;
+  }
+
+  .header_right > p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header_center {
+    display: none;
+  }
+}

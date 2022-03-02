@@ -1,7 +1,7 @@
 ## AirBnb Demo Link
 
 You can view the site here
-[Click Me](https://airbnbclone-3fe14.firebaseapp.com/)
+[Click Me](https://airbnb-clone1.herokuapp.com/)
 
 # Getting Started with Create React App
 

@@ -16,6 +16,9 @@
   width: 350px;
   border-radius: 10px;
   overflow: hidden;
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 .searchResult_info {
@@ -68,4 +71,56 @@
   position: absolute;
   bottom: 20px;
   right: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .searchResult_infoBottom {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .searchResult_heart {
+    right: 0;
+  }
+
+  .searchResult_infoBottom {
+    margin-top: 30px;
+  }
+
+  .searchResult_price > h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .searchResult_infoBottom {
+    display: flex;
+    flex-direction: inherit;
+    margin-top: 20px;
+    line-height: 1.7;
+  }
+
+  .searchResult_price {
+    position: unset;
+  }
+  .searchResult_price > p,
+  h2 {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .searchResult {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .searchResult_heart {
+    position: absolute;
+    top: 15px;
+    right: -5px;
+  }
 }

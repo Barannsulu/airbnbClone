@@ -46,6 +46,29 @@
 
 @media only screen and (max-width: 1292px) {
   .banner_info {
-    padding-top: 15vh;
+    padding-top: 20vh;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .banner_info {
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .banner_info {
+    padding-top: 5vh;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 14px !important;
   }
 }

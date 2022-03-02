@@ -2,3 +2,22 @@
   display: flex;
   padding: 30px;
 }
+
+@media screen and (max-width: 900px) {
+  .home_section {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .home_section {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .home_section {
+    display: flex;
+    flex-direction: column;
+  }
+}
