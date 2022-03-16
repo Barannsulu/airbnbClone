@@ -1,7 +1,7 @@
 ## AirBnb Demo Link
 
 You can view the site here
-[Click Me](https://elastic-brahmagupta-f8ec3e.netlify.app/)
+[Click Me](https://app.netlify.com/sites/heuristic-bell-904a85/overview)
 
 # Getting Started with Create React App
 
